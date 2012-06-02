@@ -10,4 +10,4 @@ Simply copy `screen-brightness.conf` to `/etc/init` as root.  Then reboot.  From
 
 Known issues
 ------------
-I wish there was a way to restore screen brightness earlier in the boot process, but the filesystem has to be mounted for the saved brightness value to be read.  This is disturbing in some cases.  For example when full disk encryption is used the password gets typed early on.  At this point initrd is in charge an Upstart hasn't even started yet.
+I wish there was a way to restore screen brightness earlier in the boot process, but the filesystem has to be mounted for the saved brightness value to be read.  This is disturbing in some cases.  For example when full disk encryption is used the password gets typed early on at which point initrd is in charge an Upstart hasn't even started yet.
