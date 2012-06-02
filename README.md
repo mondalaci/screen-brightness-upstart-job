@@ -1,7 +1,7 @@
 Screen brightness Upstart job
 =============================
 
-A lot of Linux users find it disturbing that screen brightness doesn't get saved across reboots.  This is an Upstart job that stores/restores the brightness of the screen upon shutdown/startup.
+A lot of Linux users find it disturbing that screen brightness doesn't get saved across reboots.  It's usually either too dark or too bright by default.  This is an Upstart job that stores/restores the brightness of the screen upon shutdown/startup.
 
 Installation
 ------------
