@@ -1,7 +1,7 @@
 Screen brightness Upstart job
 =============================
 
-A [lot of Linux users](https://bugs.launchpad.net/ubuntu/+source/gnome-power-manager/+bug/35223) find it disturbing that screen brightness doesn't get saved across reboots.  It's usually either too dark or too bright by default.  This is an Upstart job that stores/restores the brightness of the screen upon shutdown/startup.
+A [lot of Linux users](https://bugs.launchpad.net/ubuntu/+source/gnome-power-manager/+bug/35223) find it disturbing that screen brightness doesn't get saved across reboots.  It is usually either too dark or too bright by default.  This is an Upstart job that stores/restores the brightness of the screen upon shutdown/startup.
 
 Installation
 ------------
